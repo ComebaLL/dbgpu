@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBase_GPU", "DataBase_GPU.csproj", "{255F8690-1257-488A-B2B1-D6441FDA062A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{255F8690-1257-488A-B2B1-D6441FDA062A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{255F8690-1257-488A-B2B1-D6441FDA062A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{255F8690-1257-488A-B2B1-D6441FDA062A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{255F8690-1257-488A-B2B1-D6441FDA062A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BAF11B59-F96C-4E7B-A456-42D4584A9380}
+	EndGlobalSection
+EndGlobal

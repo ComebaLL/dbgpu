@@ -1,0 +1,150 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\\u0417\u0410\u0411\u0433\u0443\\2\u043E\u0439 \u043A\u0443\u0440\u0441\\\u043E\u043E\u043F\\DataBase\\DataBase_GPU\\DataBase_GPU\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{255F8690-1257-488A-B2B1-D6441FDA062A}|DataBase_GPU.csproj|E:\\\u0417\u0410\u0411\u0433\u0443\\2\u043E\u0439 \u043A\u0443\u0440\u0441\\\u043E\u043E\u043F\\DataBase\\DataBase_GPU\\DataBase_GPU\\FormAddNewGPU.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{255F8690-1257-488A-B2B1-D6441FDA062A}|DataBase_GPU.csproj|solutionrelative:FormAddNewGPU.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{255F8690-1257-488A-B2B1-D6441FDA062A}|DataBase_GPU.csproj|e:\\\u0437\u0430\u0431\u0433\u0443\\2\u043E\u0439 \u043A\u0443\u0440\u0441\\\u043E\u043E\u043F\\database\\database_gpu\\database_gpu\\base_gpu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{255F8690-1257-488A-B2B1-D6441FDA062A}|DataBase_GPU.csproj|solutionrelative:base_gpu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{255F8690-1257-488A-B2B1-D6441FDA062A}|DataBase_GPU.csproj|E:\\\u0417\u0410\u0411\u0433\u0443\\2\u043E\u0439 \u043A\u0443\u0440\u0441\\\u043E\u043E\u043F\\DataBase\\DataBase_GPU\\DataBase_GPU\\MainForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{255F8690-1257-488A-B2B1-D6441FDA062A}|DataBase_GPU.csproj|solutionrelative:MainForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{255F8690-1257-488A-B2B1-D6441FDA062A}|DataBase_GPU.csproj|E:\\\u0417\u0410\u0411\u0433\u0443\\2\u043E\u0439 \u043A\u0443\u0440\u0441\\\u043E\u043E\u043F\\DataBase\\DataBase_GPU\\DataBase_GPU\\MainForm.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{255F8690-1257-488A-B2B1-D6441FDA062A}|DataBase_GPU.csproj|solutionrelative:MainForm.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{255F8690-1257-488A-B2B1-D6441FDA062A}|DataBase_GPU.csproj|E:\\\u0417\u0410\u0411\u0433\u0443\\2\u043E\u0439 \u043A\u0443\u0440\u0441\\\u043E\u043E\u043F\\DataBase\\DataBase_GPU\\DataBase_GPU\\gpu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{255F8690-1257-488A-B2B1-D6441FDA062A}|DataBase_GPU.csproj|solutionrelative:gpu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{255F8690-1257-488A-B2B1-D6441FDA062A}|DataBase_GPU.csproj|E:\\\u0417\u0410\u0411\u0433\u0443\\2\u043E\u0439 \u043A\u0443\u0440\u0441\\\u043E\u043E\u043F\\DataBase\\DataBase_GPU\\DataBase_GPU\\formaddnewgpu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{255F8690-1257-488A-B2B1-D6441FDA062A}|DataBase_GPU.csproj|solutionrelative:formaddnewgpu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{255F8690-1257-488A-B2B1-D6441FDA062A}|DataBase_GPU.csproj|E:\\\u0417\u0410\u0411\u0433\u0443\\2\u043E\u0439 \u043A\u0443\u0440\u0441\\\u043E\u043E\u043F\\DataBase\\DataBase_GPU\\DataBase_GPU\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{255F8690-1257-488A-B2B1-D6441FDA062A}|DataBase_GPU.csproj|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormAddNewGPU.Designer.cs",
+              "DocumentMoniker": "E:\\\u0417\u0410\u0411\u0433\u0443\\2\u043E\u0439 \u043A\u0443\u0440\u0441\\\u043E\u043E\u043F\\DataBase\\DataBase_GPU\\DataBase_GPU\\FormAddNewGPU.Designer.cs",
+              "RelativeDocumentMoniker": "FormAddNewGPU.Designer.cs",
+              "ToolTip": "E:\\\u0417\u0410\u0411\u0433\u0443\\2\u043E\u0439 \u043A\u0443\u0440\u0441\\\u043E\u043E\u043F\\DataBase\\DataBase_GPU\\DataBase_GPU\\FormAddNewGPU.Designer.cs",
+              "RelativeToolTip": "FormAddNewGPU.Designer.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAowAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T06:17:23.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormAddNewGPU.cs",
+              "DocumentMoniker": "E:\\\u0417\u0410\u0411\u0433\u0443\\2\u043E\u0439 \u043A\u0443\u0440\u0441\\\u043E\u043E\u043F\\DataBase\\DataBase_GPU\\DataBase_GPU\\FormAddNewGPU.cs",
+              "RelativeDocumentMoniker": "FormAddNewGPU.cs",
+              "ToolTip": "E:\\\u0417\u0410\u0411\u0433\u0443\\2\u043E\u0439 \u043A\u0443\u0440\u0441\\\u043E\u043E\u043F\\DataBase\\DataBase_GPU\\DataBase_GPU\\FormAddNewGPU.cs*",
+              "RelativeToolTip": "FormAddNewGPU.cs*",
+              "ViewState": "AgIAACMAAAAAAAAAAAAYwDQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T06:18:15.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "E:\\\u0417\u0410\u0411\u0433\u0443\\2\u043E\u0439 \u043A\u0443\u0440\u0441\\\u043E\u043E\u043F\\DataBase\\DataBase_GPU\\DataBase_GPU\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "MainForm.Designer.cs",
+              "ToolTip": "E:\\\u0417\u0410\u0411\u0433\u0443\\2\u043E\u0439 \u043A\u0443\u0440\u0441\\\u043E\u043E\u043F\\DataBase\\DataBase_GPU\\DataBase_GPU\\MainForm.Designer.cs",
+              "RelativeToolTip": "MainForm.Designer.cs",
+              "ViewState": "AgIAAL0AAAAAAAAAAAAowA8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T06:39:07.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GPU.cs",
+              "DocumentMoniker": "E:\\\u0417\u0410\u0411\u0433\u0443\\2\u043E\u0439 \u043A\u0443\u0440\u0441\\\u043E\u043E\u043F\\DataBase\\DataBase_GPU\\DataBase_GPU\\GPU.cs",
+              "RelativeDocumentMoniker": "GPU.cs",
+              "ToolTip": "E:\\\u0417\u0410\u0411\u0433\u0443\\2\u043E\u0439 \u043A\u0443\u0440\u0441\\\u043E\u043E\u043F\\DataBase\\DataBase_GPU\\DataBase_GPU\\GPU.cs",
+              "RelativeToolTip": "GPU.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T06:01:54.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "E:\\\u0417\u0410\u0411\u0433\u0443\\2\u043E\u0439 \u043A\u0443\u0440\u0441\\\u043E\u043E\u043F\\DataBase\\DataBase_GPU\\DataBase_GPU\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "E:\\\u0417\u0410\u0411\u0433\u0443\\2\u043E\u0439 \u043A\u0443\u0440\u0441\\\u043E\u043E\u043F\\DataBase\\DataBase_GPU\\DataBase_GPU\\MainForm.cs",
+              "RelativeToolTip": "MainForm.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAIwE4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T06:28:52.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "base_GPU.cs",
+              "DocumentMoniker": "E:\\\u0417\u0410\u0411\u0433\u0443\\2\u043E\u0439 \u043A\u0443\u0440\u0441\\\u043E\u043E\u043F\\DataBase\\DataBase_GPU\\DataBase_GPU\\base_GPU.cs",
+              "RelativeDocumentMoniker": "base_GPU.cs",
+              "ToolTip": "E:\\\u0417\u0410\u0411\u0433\u0443\\2\u043E\u0439 \u043A\u0443\u0440\u0441\\\u043E\u043E\u043F\\DataBase\\DataBase_GPU\\DataBase_GPU\\base_GPU.cs",
+              "RelativeToolTip": "base_GPU.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAcwDMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T06:01:39.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\\u0417\u0410\u0411\u0433\u0443\\2\u043E\u0439 \u043A\u0443\u0440\u0441\\\u043E\u043E\u043F\\DataBase\\DataBase_GPU\\DataBase_GPU\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\\u0417\u0410\u0411\u0433\u0443\\2\u043E\u0439 \u043A\u0443\u0440\u0441\\\u043E\u043E\u043F\\DataBase\\DataBase_GPU\\DataBase_GPU\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T06:31:03.876Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

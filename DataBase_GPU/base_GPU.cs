@@ -22,7 +22,7 @@ namespace DataBase_GPU
         public List<GPU> gpuu => gpu;
 
         /// Добавить GPU
-        public void AddNewGPU(string gPU, string producer, string memoryType, double memorySize, double price)
+        public void AddNewGPU(string gPU, string producer, string memoryType, uint memorySize, uint price)
         {
             GPU newGpu = new GPU(gPU, producer, memoryType, memorySize, price);
             gpu.Add(newGpu);
@@ -70,8 +70,8 @@ namespace DataBase_GPU
                     string gPU = dataFromFile[0];
                     string producer = dataFromFile[1];
                     string memoryType = dataFromFile[2];
-                    if (!double.TryParse(dataFromFile[3], out double memorySize) ||
-                        !double.TryParse(dataFromFile[4], out double price))
+                    if (!uint.TryParse(dataFromFile[3], out uint memorySize) ||
+                        !uint.TryParse(dataFromFile[4], out uint price))
                         continue;
 
                     // Добавляем данные в список

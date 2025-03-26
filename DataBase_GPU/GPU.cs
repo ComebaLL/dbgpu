@@ -16,19 +16,16 @@ namespace DataBase_GPU
         string gPU;        ///Название
         string producer;   ///Издатель
         string memoryType; ///Тип памяти
-        double memorySize; ///Объем памяти
-        double price;      ///Цена
+        uint memorySize;   ///Объем памяти (только положительные числа)
+        uint price;        ///Цена (только положительные числа)
 
-
-
-        public GPU(string gPU, string producer, string memoryType, double memorySize, double price)
-
+        public GPU(string gPU, string producer, string memoryType, uint memorySize, uint price)
         {
             this.gPU = gPU;
-            this.producer= producer;
+            this.producer = producer;
             this.memoryType = memoryType;
-            this.memorySize = memorySize;
-            this.price = price;
+            SetMemorySize(memorySize);
+            SetPrice(price);
         }
         ///Вернуть название
         public string GetGPU()
@@ -61,24 +58,28 @@ namespace DataBase_GPU
         {
             this.memoryType = memoryType;
         }
-        ///Вернуть вес
-        public double GetMemorySize()
+        ///Вернуть объем памяти
+        public uint GetMemorySize()
         {
             return memorySize;
         }
-        ///Задать вес
-        public void SetMemorySize(double memorySize)
+        ///Задать объем памяти (не меньше 1)
+        public void SetMemorySize(uint memorySize)
         {
+            if (memorySize < 1)
+                throw new ArgumentException("Объем памяти должен быть не меньше 1 мб.");
             this.memorySize = memorySize;
         }
         ///Вернуть цену
-        public double GetPrice()
+        public uint GetPrice()
         {
             return price;
         }
-        ///Задать цену
-        public void SetPrice(double price)
+        ///Задать цену (не меньше 1)
+        public void SetPrice(uint price)
         {
+            if (price < 1)
+                throw new ArgumentException("Цена должна быть не меньше 1.");
             this.price = price;
         }
 

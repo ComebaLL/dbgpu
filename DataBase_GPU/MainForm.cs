@@ -36,6 +36,17 @@ namespace DataBase_GPU
             }
 
         }
+
+        /// Добавление последней записи из базы данных в таблицу
+        public void AddLastRecordToGrid()
+        {
+            if (gpu.gpuu.Count > 0)
+            {
+                GPU lastGpu = gpu.gpuu[gpu.gpuu.Count - 1]; // Берем последнюю добавленную запись
+                dataGridView1.Rows.Add(lastGpu.GetGPU(), lastGpu.GetProducer(), lastGpu.GetMemoryType(), lastGpu.GetMemorySize(), lastGpu.GetPrice());
+            }
+        }
+
         /// Открыть новую форму и добавить GPU
         /// object sender - объект который взял на себя событие
         /// EventArgs e - стандатрный аргумент событий, содержащий доп инфу о событии
@@ -82,6 +93,36 @@ namespace DataBase_GPU
             }
         }
 
+        /// Поиск по всем полям в таблице
+        private void SearchGPU(string searchText)
+        {
+            searchText = searchText.ToLower(); // Приводим к нижнему регистру для нечувствительного к регистру поиска
+
+            foreach (DataGridViewRow row in dataGridView1.Rows) // Перебираем все строки в таблице
+            {
+                if (row.IsNewRow) continue; // Пропускаем последнюю пустую строку
+
+                bool match = false; // Флаг, указывающий, есть ли совпадение
+
+                for (int i = 0; i < row.Cells.Count; i++) // Перебираем все ячейки в строке
+                {
+                    if (row.Cells[i].Value != null && row.Cells[i].Value.ToString().ToLower().Contains(searchText))
+                    {
+                        match = true; // Найдено совпадение
+                        break; // переход к следующей строке
+                    }
+                }
+
+                row.Visible = match; // Если совпадение найдено, строка остается видимой, иначе скрывается
+            }
+        }
+
+
+        /// Обработчик события при вводе текста в поле поиска
+        private void textBox_Search_TextChanged(object sender, EventArgs e)
+        {
+            SearchGPU(textBox_Search.Text);
+        }
 
     }
 }

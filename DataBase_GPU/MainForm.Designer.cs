@@ -45,6 +45,8 @@ namespace DataBase_GPU
             this.открытьБазуToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.сведенияToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.оРазработчикеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.textBox_Search = new System.Windows.Forms.TextBox();
+            this.label_Search = new System.Windows.Forms.Label();
             //this.инсToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.menuStrip1.SuspendLayout();
@@ -161,12 +163,23 @@ namespace DataBase_GPU
             this.оРазработчикеToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.оРазработчикеToolStripMenuItem.Text = "О разработчике";
             this.оРазработчикеToolStripMenuItem.Click += new System.EventHandler(this.оРазработчикеToolStripMenuItem_Click);
-         
+
             // инсToolStripMenuItem
             //this.инсToolStripMenuItem.Name = "инсToolStripMenuItem";
             //this.инсToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             //this.инсToolStripMenuItem.Text = "Инструкция";
-        
+
+
+            // textBox_Search
+            this.textBox_Search.Location = new System.Drawing.Point(80, 70);
+            this.textBox_Search.Size = new System.Drawing.Size(200, 20);
+            this.textBox_Search.TextChanged += new System.EventHandler(this.textBox_Search_TextChanged);
+
+            // label_Search
+            this.label_Search.Location = new System.Drawing.Point(40, 70);
+            this.label_Search.Size = new System.Drawing.Size(60, 20);
+            this.label_Search.Text = "Поиск:";
+
             // MainForm
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -182,6 +195,8 @@ namespace DataBase_GPU
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            this.Controls.Add(this.textBox_Search);
+            this.Controls.Add(this.label_Search);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -215,6 +230,8 @@ namespace DataBase_GPU
         private System.Windows.Forms.ToolStripMenuItem сохранитьToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem открытьБазуToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem инсToolStripMenuItem;
+        private System.Windows.Forms.TextBox textBox_Search;
+        private System.Windows.Forms.Label label_Search;
     }
 }
 

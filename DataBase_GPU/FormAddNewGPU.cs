@@ -22,8 +22,8 @@ namespace DataBase_GPU
         private void FormAddNewGPU_Load(object sender, EventArgs e)
         {
             // Устанавливаем стандартные значения для текстовых полей
-            textBox_gpu.Text = "4070";
-            textBox_producer.Text = "Nvidia";
+            textBox_gpu.Text = "111";
+            textBox_producer.Text = "111";
             textBox_memoryType.Text = "GDDR6"; // По умолчанию
             textBox_memorySize.Text = "4"; // Минимальный объем памяти в ГБ
             textBox_price.Text = "100"; // Минимальная цена
@@ -49,83 +49,91 @@ namespace DataBase_GPU
             string GPU = textBox_gpu.Text;
             string producer = textBox_producer.Text;
             string memoryType = textBox_memoryType.Text;
-            double memorySize;
-            double price;
-            // для определения наличия ошибки
+            uint memorySize = 0;
+            uint price = 0;
             bool hasError = false;
 
-            // Проверяем, заполнено ли поле "Название GPU"
-            if (string.IsNullOrWhiteSpace(GPU))
+            try
             {
-                textBox_gpu.BackColor = error; // Если пустое, меняем цвет на красный
-                hasError = true;
-            }
-            else
-            {
-                textBox_gpu.BackColor = usual; // Если все в порядке, оставляем белый
-            }
+                // Проверяем, заполнено ли поле "Название GPU"
+                if (string.IsNullOrWhiteSpace(GPU))
+                {
+                    textBox_gpu.BackColor = error;
+                    hasError = true;
+                }
+                else
+                {
+                    textBox_gpu.BackColor = usual;
+                }
 
-            // Проверяем поле "Производитель"
-            if (string.IsNullOrWhiteSpace(producer))
-            {
-                textBox_producer.BackColor = error;
-                hasError = true;
-            }
-            else
-            {
-                textBox_producer.BackColor = usual;
-            }
+                // Проверяем поле "Производитель"
+                if (string.IsNullOrWhiteSpace(producer))
+                {
+                    textBox_producer.BackColor = error;
+                    hasError = true;
+                }
+                else
+                {
+                    textBox_producer.BackColor = usual;
+                }
 
-            // Проверяем поле "Тип памяти"
-            if (string.IsNullOrWhiteSpace(memoryType))
-            {
-                textBox_memoryType.BackColor = error;
-                hasError = true;
-            }
-            else
-            {
-                textBox_memoryType.BackColor = usual;
-            }
+                // Проверяем поле "Тип памяти"
+                if (string.IsNullOrWhiteSpace(memoryType))
+                {
+                    textBox_memoryType.BackColor = error;
+                    hasError = true;
+                }
+                else
+                {
+                    textBox_memoryType.BackColor = usual;
+                }
 
-            // Проверяем корректность ввода "Объема памяти"
-            if (!double.TryParse(textBox_memorySize.Text, out memorySize))
-            {
-                textBox_memorySize.BackColor = error; // Если не число, окрашиваем красным
-                hasError = true;
-            }
-            else
-            {
-                textBox_memorySize.BackColor = usual;
-            }
+                // Проверяем корректность ввода "Объема памяти"
+                if (!uint.TryParse(textBox_memorySize.Text, out memorySize) || memorySize < 1)
+                {
+                    textBox_memorySize.BackColor = error;
+                    hasError = true;
+                }
+                else
+                {
+                    textBox_memorySize.BackColor = usual;
+                }
 
-            // Проверяем корректность ввода "Цены"
-            if (!double.TryParse(textBox_price.Text, out price))
-            {
-                textBox_price.BackColor = error;
-                hasError = true;
-            }
-            else
-            {
-                textBox_price.BackColor = usual;
-            }
+                // Проверяем корректность ввода "Цены"
+                if (!uint.TryParse(textBox_price.Text, out price) || price < 1)
+                {
+                    textBox_price.BackColor = error;
+                    hasError = true;
+                }
+                else
+                {
+                    textBox_price.BackColor = usual;
+                }
 
-            // Если хотя бы одно поле содержит ошибку, выводим сообщение
-            if (hasError)
-            {
-                label_error.Text = "Заполните все поля";
-            }
-            else
-            {
-                // Если ошибок не найдено, все введенные поля очищаются
+                // Если хотя бы одно поле содержит ошибку, выводим сообщение и не добавляем данные
+                if (hasError)
+                {
+                    label_error.Text = "Заполните все поля корректно";
+                    return;
+                }
+
+                // Добавляем в базу
+                mainForm.gpu.AddNewGPU(GPU, producer, memoryType, memorySize, price);
+
+                // Обновляем таблицу
+                mainForm.AddLastRecordToGrid();
+
+                // Очищаем поля после успешного добавления
                 textBox_gpu.Clear();
                 textBox_producer.Clear();
                 textBox_memoryType.Clear();
                 textBox_memorySize.Text = "";
                 textBox_price.Text = "";
-
-                // изделие добавляется в список и на главную форму
-                mainForm.gpu.AddNewGPU(GPU, producer, memoryType, memorySize, price);
-                mainForm.dataGridView1.Rows.Add(GPU, producer, memoryType, memorySize, price);
+                label_error.Text = "";
+            }
+            catch (Exception ex)
+            {
+                label_error.Text = "Ошибка: " + ex.Message;
             }
         }
 

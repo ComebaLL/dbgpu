@@ -37,6 +37,13 @@ namespace DataBase_GPU
             this.memoryType = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.memorySize = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.price = new System.Windows.Forms.DataGridViewTextBoxColumn();
+
+            this.GPU.DataPropertyName = "GPUName";
+            this.producer.DataPropertyName = "Producer";
+            this.memoryType.DataPropertyName = "MemoryType";
+            this.memorySize.DataPropertyName = "MemorySize";
+            this.price.DataPropertyName = "Price";
+
             this.button_add = new System.Windows.Forms.Button();
             this.button_alldelete = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();

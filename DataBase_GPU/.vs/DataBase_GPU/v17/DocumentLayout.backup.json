@@ -1,34 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\\u0417\u0410\u0411\u0433\u0443\\2\u043E\u0439 \u043A\u0443\u0440\u0441\\\u043E\u043E\u043F\\DataBase\\DataBase_GPU\\DataBase_GPU\\",
+  "WorkspaceRootPath": "C:\\Users\\gumba\\Documents\\GitHub\\dbgpu\\DataBase_GPU\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{255F8690-1257-488A-B2B1-D6441FDA062A}|DataBase_GPU.csproj|E:\\\u0417\u0410\u0411\u0433\u0443\\2\u043E\u0439 \u043A\u0443\u0440\u0441\\\u043E\u043E\u043F\\DataBase\\DataBase_GPU\\DataBase_GPU\\MainForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{255F8690-1257-488A-B2B1-D6441FDA062A}|DataBase_GPU.csproj|solutionrelative:MainForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{255F8690-1257-488A-B2B1-D6441FDA062A}|DataBase_GPU.csproj|C:\\Users\\gumba\\Documents\\GitHub\\dbgpu\\DataBase_GPU\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{255F8690-1257-488A-B2B1-D6441FDA062A}|DataBase_GPU.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{255F8690-1257-488A-B2B1-D6441FDA062A}|DataBase_GPU.csproj|E:\\\u0417\u0410\u0411\u0433\u0443\\2\u043E\u0439 \u043A\u0443\u0440\u0441\\\u043E\u043E\u043F\\DataBase\\DataBase_GPU\\DataBase_GPU\\FormAddNewGPU.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{255F8690-1257-488A-B2B1-D6441FDA062A}|DataBase_GPU.csproj|solutionrelative:FormAddNewGPU.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{255F8690-1257-488A-B2B1-D6441FDA062A}|DataBase_GPU.csproj|e:\\\u0437\u0430\u0431\u0433\u0443\\2\u043E\u0439 \u043A\u0443\u0440\u0441\\\u043E\u043E\u043F\\database\\database_gpu\\database_gpu\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{255F8690-1257-488A-B2B1-D6441FDA062A}|DataBase_GPU.csproj|solutionrelative:mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{255F8690-1257-488A-B2B1-D6441FDA062A}|DataBase_GPU.csproj|E:\\\u0417\u0410\u0411\u0433\u0443\\2\u043E\u0439 \u043A\u0443\u0440\u0441\\\u043E\u043E\u043F\\DataBase\\DataBase_GPU\\DataBase_GPU\\gpu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{255F8690-1257-488A-B2B1-D6441FDA062A}|DataBase_GPU.csproj|solutionrelative:gpu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{255F8690-1257-488A-B2B1-D6441FDA062A}|DataBase_GPU.csproj|E:\\\u0417\u0410\u0411\u0433\u0443\\2\u043E\u0439 \u043A\u0443\u0440\u0441\\\u043E\u043E\u043F\\DataBase\\DataBase_GPU\\DataBase_GPU\\base_gpu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{255F8690-1257-488A-B2B1-D6441FDA062A}|DataBase_GPU.csproj|C:\\Users\\gumba\\Documents\\GitHub\\dbgpu\\DataBase_GPU\\base_gpu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{255F8690-1257-488A-B2B1-D6441FDA062A}|DataBase_GPU.csproj|solutionrelative:base_gpu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{255F8690-1257-488A-B2B1-D6441FDA062A}|DataBase_GPU.csproj|E:\\\u0417\u0410\u0411\u0433\u0443\\2\u043E\u0439 \u043A\u0443\u0440\u0441\\\u043E\u043E\u043F\\DataBase\\DataBase_GPU\\DataBase_GPU\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{255F8690-1257-488A-B2B1-D6441FDA062A}|DataBase_GPU.csproj|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{255F8690-1257-488A-B2B1-D6441FDA062A}|DataBase_GPU.csproj|c:\\users\\gumba\\documents\\github\\dbgpu\\database_gpu\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{255F8690-1257-488A-B2B1-D6441FDA062A}|DataBase_GPU.csproj|solutionrelative:mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{255F8690-1257-488A-B2B1-D6441FDA062A}|DataBase_GPU.csproj|E:\\\u0417\u0410\u0411\u0433\u0443\\2\u043E\u0439 \u043A\u0443\u0440\u0441\\\u043E\u043E\u043F\\DataBase\\DataBase_GPU\\DataBase_GPU\\formaddnewgpu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{255F8690-1257-488A-B2B1-D6441FDA062A}|DataBase_GPU.csproj|C:\\Users\\gumba\\Documents\\GitHub\\dbgpu\\DataBase_GPU\\formaddnewgpu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{255F8690-1257-488A-B2B1-D6441FDA062A}|DataBase_GPU.csproj|solutionrelative:formaddnewgpu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{255F8690-1257-488A-B2B1-D6441FDA062A}|DataBase_GPU.csproj|C:\\Users\\gumba\\Documents\\GitHub\\dbgpu\\DataBase_GPU\\FormAddNewGPU.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{255F8690-1257-488A-B2B1-D6441FDA062A}|DataBase_GPU.csproj|solutionrelative:FormAddNewGPU.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{255F8690-1257-488A-B2B1-D6441FDA062A}|DataBase_GPU.csproj|C:\\Users\\gumba\\Documents\\GitHub\\dbgpu\\DataBase_GPU\\gpu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{255F8690-1257-488A-B2B1-D6441FDA062A}|DataBase_GPU.csproj|solutionrelative:gpu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{255F8690-1257-488A-B2B1-D6441FDA062A}|DataBase_GPU.csproj|C:\\Users\\gumba\\Documents\\GitHub\\dbgpu\\DataBase_GPU\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{255F8690-1257-488A-B2B1-D6441FDA062A}|DataBase_GPU.csproj|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,25 +58,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "FormAddNewGPU.Designer.cs",
-              "DocumentMoniker": "E:\\\u0417\u0410\u0411\u0433\u0443\\2\u043E\u0439 \u043A\u0443\u0440\u0441\\\u043E\u043E\u043F\\DataBase\\DataBase_GPU\\DataBase_GPU\\FormAddNewGPU.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\gumba\\Documents\\GitHub\\dbgpu\\DataBase_GPU\\FormAddNewGPU.Designer.cs",
               "RelativeDocumentMoniker": "FormAddNewGPU.Designer.cs",
-              "ToolTip": "E:\\\u0417\u0410\u0411\u0433\u0443\\2\u043E\u0439 \u043A\u0443\u0440\u0441\\\u043E\u043E\u043F\\DataBase\\DataBase_GPU\\DataBase_GPU\\FormAddNewGPU.Designer.cs",
+              "ToolTip": "C:\\Users\\gumba\\Documents\\GitHub\\dbgpu\\DataBase_GPU\\FormAddNewGPU.Designer.cs",
               "RelativeToolTip": "FormAddNewGPU.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T06:17:23.439Z"
+              "WhenOpened": "2024-09-10T06:17:23.439Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "FormAddNewGPU.cs",
-              "DocumentMoniker": "E:\\\u0417\u0410\u0411\u0433\u0443\\2\u043E\u0439 \u043A\u0443\u0440\u0441\\\u043E\u043E\u043F\\DataBase\\DataBase_GPU\\DataBase_GPU\\FormAddNewGPU.cs",
+              "DocumentMoniker": "C:\\Users\\gumba\\Documents\\GitHub\\dbgpu\\DataBase_GPU\\FormAddNewGPU.cs",
               "RelativeDocumentMoniker": "FormAddNewGPU.cs",
-              "ToolTip": "E:\\\u0417\u0410\u0411\u0433\u0443\\2\u043E\u0439 \u043A\u0443\u0440\u0441\\\u043E\u043E\u043F\\DataBase\\DataBase_GPU\\DataBase_GPU\\FormAddNewGPU.cs",
+              "ToolTip": "C:\\Users\\gumba\\Documents\\GitHub\\dbgpu\\DataBase_GPU\\FormAddNewGPU.cs",
               "RelativeToolTip": "FormAddNewGPU.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAYwHsAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwBEAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-10T06:18:15.061Z",
               "EditorCaption": ""
@@ -85,24 +86,24 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "MainForm.Designer.cs",
-              "DocumentMoniker": "E:\\\u0417\u0410\u0411\u0433\u0443\\2\u043E\u0439 \u043A\u0443\u0440\u0441\\\u043E\u043E\u043F\\DataBase\\DataBase_GPU\\DataBase_GPU\\MainForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\gumba\\Documents\\GitHub\\dbgpu\\DataBase_GPU\\MainForm.Designer.cs",
               "RelativeDocumentMoniker": "MainForm.Designer.cs",
-              "ToolTip": "E:\\\u0417\u0410\u0411\u0433\u0443\\2\u043E\u0439 \u043A\u0443\u0440\u0441\\\u043E\u043E\u043F\\DataBase\\DataBase_GPU\\DataBase_GPU\\MainForm.Designer.cs",
+              "ToolTip": "C:\\Users\\gumba\\Documents\\GitHub\\dbgpu\\DataBase_GPU\\MainForm.Designer.cs",
               "RelativeToolTip": "MainForm.Designer.cs",
-              "ViewState": "AgIAAJ8AAAAAAAAAAAAowMgAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswCcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-10T06:39:07.686Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "GPU.cs",
-              "DocumentMoniker": "E:\\\u0417\u0410\u0411\u0433\u0443\\2\u043E\u0439 \u043A\u0443\u0440\u0441\\\u043E\u043E\u043F\\DataBase\\DataBase_GPU\\DataBase_GPU\\GPU.cs",
+              "DocumentMoniker": "C:\\Users\\gumba\\Documents\\GitHub\\dbgpu\\DataBase_GPU\\GPU.cs",
               "RelativeDocumentMoniker": "GPU.cs",
-              "ToolTip": "E:\\\u0417\u0410\u0411\u0433\u0443\\2\u043E\u0439 \u043A\u0443\u0440\u0441\\\u043E\u043E\u043F\\DataBase\\DataBase_GPU\\DataBase_GPU\\GPU.cs",
+              "ToolTip": "C:\\Users\\gumba\\Documents\\GitHub\\dbgpu\\DataBase_GPU\\GPU.cs",
               "RelativeToolTip": "GPU.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAArwEUAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-10T06:01:54.58Z"
             },
@@ -110,34 +111,35 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainForm.cs",
-              "DocumentMoniker": "E:\\\u0417\u0410\u0411\u0433\u0443\\2\u043E\u0439 \u043A\u0443\u0440\u0441\\\u043E\u043E\u043F\\DataBase\\DataBase_GPU\\DataBase_GPU\\MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\gumba\\Documents\\GitHub\\dbgpu\\DataBase_GPU\\MainForm.cs",
               "RelativeDocumentMoniker": "MainForm.cs",
-              "ToolTip": "E:\\\u0417\u0410\u0411\u0433\u0443\\2\u043E\u0439 \u043A\u0443\u0440\u0441\\\u043E\u043E\u043F\\DataBase\\DataBase_GPU\\DataBase_GPU\\MainForm.cs",
+              "ToolTip": "C:\\Users\\gumba\\Documents\\GitHub\\dbgpu\\DataBase_GPU\\MainForm.cs",
               "RelativeToolTip": "MainForm.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAADwv2kAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAIwGsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-10T06:28:52.297Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "base_GPU.cs",
-              "DocumentMoniker": "E:\\\u0417\u0410\u0411\u0433\u0443\\2\u043E\u0439 \u043A\u0443\u0440\u0441\\\u043E\u043E\u043F\\DataBase\\DataBase_GPU\\DataBase_GPU\\base_GPU.cs",
+              "DocumentMoniker": "C:\\Users\\gumba\\Documents\\GitHub\\dbgpu\\DataBase_GPU\\base_GPU.cs",
               "RelativeDocumentMoniker": "base_GPU.cs",
-              "ToolTip": "E:\\\u0417\u0410\u0411\u0433\u0443\\2\u043E\u0439 \u043A\u0443\u0440\u0441\\\u043E\u043E\u043F\\DataBase\\DataBase_GPU\\DataBase_GPU\\base_GPU.cs",
+              "ToolTip": "C:\\Users\\gumba\\Documents\\GitHub\\dbgpu\\DataBase_GPU\\base_GPU.cs",
               "RelativeToolTip": "base_GPU.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAEgAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAIwG0AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T06:01:39.04Z"
+              "WhenOpened": "2024-09-10T06:01:39.04Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\\u0417\u0410\u0411\u0433\u0443\\2\u043E\u0439 \u043A\u0443\u0440\u0441\\\u043E\u043E\u043F\\DataBase\\DataBase_GPU\\DataBase_GPU\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\gumba\\Documents\\GitHub\\dbgpu\\DataBase_GPU\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\\u0417\u0410\u0411\u0433\u0443\\2\u043E\u0439 \u043A\u0443\u0440\u0441\\\u043E\u043E\u043F\\DataBase\\DataBase_GPU\\DataBase_GPU\\Program.cs",
+              "ToolTip": "C:\\Users\\gumba\\Documents\\GitHub\\dbgpu\\DataBase_GPU\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

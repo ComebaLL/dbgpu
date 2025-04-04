@@ -1,40 +1,35 @@
-﻿///реализация простой базы данных GPU
-///author Kuvykin N.D
+﻿/// реализация простой базы данных GPU
+/// author Kuvykin N.D
 
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
+using System.Collections.ObjectModel;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace DataBase_GPU
 {
     public partial class MainForm : Form
-    {   ///поле хранит имя файла для работы 
+    {
+        /// поле хранит имя файла для работы 
         public string filename = "";
 
-        ///cсылка на объект класса base_GPU
+        /// ссылка на объект класса base_GPU
         public base_GPU gpu = new base_GPU();
-        
 
         public MainForm()
         {
             InitializeComponent();
         }
 
-        ///Заполнение таблицы на форме из объекта gpu
+        /// Заполнение таблицы на форме из объекта gpu
         private void WriteToDataGrid()
         {
             for (int i = 0; i < gpu.gpuu.Count; i++)
             {
                 GPU b = gpu.gpuu[i];
-                dataGridView1.Rows.Add(b.GetGPU(), b.GetProducer(), b.GetMemoryType(), b.GetMemorySize(), b.GetPrice());
+                dataGridView1.Rows.Add(b.GPUName, b.Producer, b.MemoryType, b.MemorySize, b.Price);
             }
-
         }
 
         /// Добавление последней записи из базы данных в таблицу
@@ -42,27 +37,27 @@ namespace DataBase_GPU
         {
             if (gpu.gpuu.Count > 0)
             {
-                GPU lastGpu = gpu.gpuu[gpu.gpuu.Count - 1]; // Берем последнюю добавленную запись
-                dataGridView1.Rows.Add(lastGpu.GetGPU(), lastGpu.GetProducer(), lastGpu.GetMemoryType(), lastGpu.GetMemorySize(), lastGpu.GetPrice());
+                GPU lastGpu = gpu.gpuu[gpu.gpuu.Count - 1];
+                dataGridView1.Rows.Add(lastGpu.GPUName, lastGpu.Producer, lastGpu.MemoryType, lastGpu.MemorySize, lastGpu.Price);
             }
         }
 
-        /// Открыть новую форму и добавить GPU
-        /// object sender - объект который взял на себя событие
-        /// EventArgs e - стандатрный аргумент событий, содержащий доп инфу о событии
+        /// Открыть форму добавления GPU
         private void button_add_Click(object sender, EventArgs e)
         {
             FormAddNewGPU addform = new FormAddNewGPU();
             addform.Owner = this;
             addform.Show();
         }
-        ///очиcтить таблицу на форме и объект gpu
+
+        /// Очистить таблицу и базу
         private void button_alldelete_Click(object sender, EventArgs e)
         {
             dataGridView1.Rows.Clear();
             gpu.gpuu.Clear();
         }
-        ///сохранить в фаил
+
+        /// Сохранить базу в файл
         private void сохранитьToolStripMenuItem_Click(object sender, EventArgs e)
         {
             using (SaveFileDialog saveFileDialog = new SaveFileDialog())
@@ -74,9 +69,9 @@ namespace DataBase_GPU
                 }
                 gpu.SaveBase(filename);
             }
-
         }
-        ///открыть из файла
+
+        /// Открыть базу из файла
         private void открытьБазуToolStripMenuItem_Click(object sender, EventArgs e)
         {
             using (OpenFileDialog openFileDialog = new OpenFileDialog())
@@ -86,43 +81,39 @@ namespace DataBase_GPU
                 filename = openFileDialog.FileName;
 
                 dataGridView1.Rows.Clear();
-                ///открывает файл и загружает данные в объект gpu
                 gpu.OpenFile(filename);
-                //заполняет таблицу на форме
                 WriteToDataGrid();
             }
         }
 
-        /// Поиск по всем полям в таблице
-        private void SearchGPU(string searchText)
+        private void textBox_Search_TextChanged(object sender, EventArgs e)
         {
-            searchText = searchText.ToLower(); // Приводим к нижнему регистру для нечувствительного к регистру поиска
+            string searchText = textBox_Search.Text;
 
-            foreach (DataGridViewRow row in dataGridView1.Rows) // Перебираем все строки в таблице
+            if (string.IsNullOrWhiteSpace(searchText))
             {
-                if (row.IsNewRow) continue; // Пропускаем последнюю пустую строку
+                // Если строка поиска пуста — показать все элементы
+                dataGridView1.DataSource = null;
+                dataGridView1.DataSource = gpu.GpuList; // возвращаем исходную коллекцию
+            }
+            else
+            {
+                // Если есть текст — отфильтровать
+                var result = gpu.Search(searchText);
 
-                bool match = false; // Флаг, указывающий, есть ли совпадение
-
-                for (int i = 0; i < row.Cells.Count; i++) // Перебираем все ячейки в строке
-                {
-                    if (row.Cells[i].Value != null && row.Cells[i].Value.ToString().ToLower().Contains(searchText))
-                    {
-                        match = true; // Найдено совпадение
-                        break; // переход к следующей строке
-                    }
-                }
-
-                row.Visible = match; // Если совпадение найдено, строка остается видимой, иначе скрывается
+                dataGridView1.DataSource = null;
+                dataGridView1.DataSource = result;
             }
         }
 
 
-        /// Обработчик события при вводе текста в поле поиска
-        private void textBox_Search_TextChanged(object sender, EventArgs e)
+        public void UpdateGrid(ObservableCollection<GPU> list)
         {
-            SearchGPU(textBox_Search.Text);
+            dataGridView1.DataSource = null;
+            dataGridView1.DataSource = list.ToList(); 
         }
+
+
 
     }
 }

@@ -23,3 +23,14 @@ E:\ЗАБгу\2ой курс\ооп\DataBase\DataBase_GPU\DataBase_GPU\bin\Debug
 E:\ЗАБгу\2ой курс\ооп\DataBase\DataBase_GPU\DataBase_GPU\bin\Debug\DataBase_Jewelry.pdb
 E:\ЗАБгу\2ой курс\ооп\DataBase\DataBase_GPU\DataBase_GPU\obj\Debug\DataBase_Jewelry.exe
 E:\ЗАБгу\2ой курс\ооп\DataBase\DataBase_GPU\DataBase_GPU\obj\Debug\DataBase_Jewelry.pdb
+C:\Users\gumba\Documents\GitHub\dbgpu\DataBase_GPU\obj\Debug\DataBase_GPU.csproj.AssemblyReference.cache
+C:\Users\gumba\Documents\GitHub\dbgpu\DataBase_GPU\obj\Debug\DataBase_GPU.MainForm.resources
+C:\Users\gumba\Documents\GitHub\dbgpu\DataBase_GPU\obj\Debug\DataBase_GPU.FormAddNewGPU.resources
+C:\Users\gumba\Documents\GitHub\dbgpu\DataBase_GPU\obj\Debug\DataBase_Jewelry.Properties.Resources.resources
+C:\Users\gumba\Documents\GitHub\dbgpu\DataBase_GPU\obj\Debug\DataBase_GPU.csproj.GenerateResource.cache
+C:\Users\gumba\Documents\GitHub\dbgpu\DataBase_GPU\obj\Debug\DataBase_GPU.csproj.CoreCompileInputs.cache
+C:\Users\gumba\Documents\GitHub\dbgpu\DataBase_GPU\obj\Debug\DataBase_Jewelry.exe
+C:\Users\gumba\Documents\GitHub\dbgpu\DataBase_GPU\obj\Debug\DataBase_Jewelry.pdb
+C:\Users\gumba\Documents\GitHub\dbgpu\DataBase_GPU\bin\Debug\DataBase_Jewelry.exe.config
+C:\Users\gumba\Documents\GitHub\dbgpu\DataBase_GPU\bin\Debug\DataBase_Jewelry.exe
+C:\Users\gumba\Documents\GitHub\dbgpu\DataBase_GPU\bin\Debug\DataBase_Jewelry.pdb

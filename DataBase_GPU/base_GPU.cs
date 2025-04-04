@@ -1,9 +1,8 @@
 ﻿///реализация простой базы данных GPU
 ///author Kuvykin N.D
 
-
 using System;
-using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -15,19 +14,19 @@ namespace DataBase_GPU
     ///класс для работы с базой
     public class base_GPU
     {
-        ///список "GPU" объектов "GPU"
-        List<GPU> gpu = new List<GPU>();
+        /// ObservableCollection "GPU" объектов "GPU"
+        public ObservableCollection<GPU> GpuList { get; set; } = new ObservableCollection<GPU>();
 
-        /// Вернуть список
-        public List<GPU> gpuu => gpu;
+
+        /// Вернуть коллекцию
+        public ObservableCollection<GPU> gpuu => GpuList;
 
         /// Добавить GPU
         public void AddNewGPU(string gPU, string producer, string memoryType, uint memorySize, uint price)
         {
             GPU newGpu = new GPU(gPU, producer, memoryType, memorySize, price);
-            gpu.Add(newGpu);
+            GpuList.Add(newGpu);
         }
-
 
         /// Сохранить базу в файл
         public void SaveBase(string name)
@@ -36,7 +35,7 @@ namespace DataBase_GPU
             {
                 using (StreamWriter sw = new StreamWriter(name, false, Encoding.Unicode))
                 {
-                    foreach (GPU g in gpu)
+                    foreach (GPU g in GpuList)
                     {
                         sw.WriteLine(g);
                     }
@@ -54,8 +53,8 @@ namespace DataBase_GPU
             if (!File.Exists(name))
                 throw new Exception("Файл не существует");
 
-            // Очищаем список gpu перед чтением новых данных из файла
-            gpu.Clear();
+            // Очищаем коллекцию gpu перед чтением новых данных из файла
+            GpuList.Clear();
 
             using (StreamReader sr = new StreamReader(name))
             {
@@ -74,19 +73,44 @@ namespace DataBase_GPU
                         !uint.TryParse(dataFromFile[4], out uint price))
                         continue;
 
-                    // Добавляем данные в список
+                    // Добавляем данные в коллекцию
                     AddNewGPU(gPU, producer, memoryType, memorySize, price);
                 }
             }
         }
 
-        /// Удаляет элемент из списка gpu по индексу 
+        /// Удаляет элемент из коллекции gpu по индексу 
         public void DeleteOne(int ind)
         {
-            if (ind >= 0 && ind < gpu.Count)
+            if (ind >= 0 && ind < GpuList.Count)
             {
-                gpu.RemoveAt(ind);
+                GpuList.RemoveAt(ind);
             }
+        }
+
+        /// Очистка всей базы
+        public void Clear()
+        {
+            GpuList.Clear();
+        }
+
+        /// Поиск по всем полям 
+        public ObservableCollection<GPU> Search(string searchText)
+        {
+            if (string.IsNullOrWhiteSpace(searchText))
+                return new ObservableCollection<GPU>(GpuList);
+
+            searchText = searchText.ToLower();
+
+            var result = GpuList.Where(gpu =>
+                gpu.GPUName.ToLower().Contains(searchText) ||
+                gpu.Producer.ToLower().Contains(searchText) ||
+                gpu.MemoryType.ToLower().Contains(searchText) ||
+                gpu.MemorySize.ToString().Contains(searchText) ||
+                gpu.Price.ToString().Contains(searchText)
+            );
+
+            return new ObservableCollection<GPU>(result);
         }
     }
 }
